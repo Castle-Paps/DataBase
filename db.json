@@ -1,255 +1,155 @@
 {
   "users": [
     {
-      "id": "u1",
-      "username": "jose123",
-      "email": "jose@example.com",
-      "displayName": "Jose Albornoz",
-      "bio": "Programador y gamer",
-      "profileImageUrl": "https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
-      "followersCount": 10,
-      "followingCount": 5,
-      "postsCount": 3,
-      "isVerified": true,
-      "isPrivate": false,
-      "website": "https://jose.dev",
-      "createdAt": 1700000000000,
-      "updatedAt": 1700000000000
+      "id": "user_101",
+      "username": "alex_valdez",
+      "email": "alex@socialapp.com",
+      "displayName": "Alex Valdez",
+      "bio": "Amante del cine 🎬, la música 🎶 y los viajes 🌍",
+      "profileImageUrl": "https://picsum.photos/200/200?random=10",
+      "followersCount": 512,
+      "followingCount": 180,
+      "postsCount": 4
     },
     {
-      "id": "u2",
-      "username": "maria99",
-      "email": "maria@example.com",
-      "displayName": "Maria Lopez",
-      "bio": "Fotógrafa",
-      "profileImageUrl": "https://images.unsplash.com/photo-1607746882042-944635dfe10e?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
-      "followersCount": 5,
-      "followingCount": 7,
-      "postsCount": 2,
-      "isVerified": false,
-      "isPrivate": false,
-      "website": "",
-      "createdAt": 1700001000000,
-      "updatedAt": 1700001000000
+      "id": "user_102",
+      "username": "paula_gomez",
+      "email": "paula@studio.com",
+      "displayName": "Paula Gómez",
+      "bio": "Diseñadora gráfica 👩‍🎨 | Creativa | Coffee lover ☕️",
+      "profileImageUrl": "https://picsum.photos/200/200?random=11",
+      "followersCount": 980,
+      "followingCount": 300,
+      "postsCount": 26,
+      "isVerified": true
     },
     {
-      "id": "u3",
-      "username": "ana_dev",
-      "email": "ana@example.com",
-      "displayName": "Ana Torres",
-      "bio": "Diseñadora UX",
-      "profileImageUrl": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
-      "followersCount": 8,
-      "followingCount": 3,
-      "postsCount": 4,
-      "isVerified": false,
-      "isPrivate": false,
-      "website": "",
-      "createdAt": 1700002000000,
-      "updatedAt": 1700002000000
+      "id": "user_103",
+      "username": "luis_fernandez",
+      "email": "luis@techie.com",
+      "displayName": "Luis Fernández",
+      "bio": "Desarrollador de software 💻 | Entusiasta de la IA 🤖 | Futuro CTO",
+      "profileImageUrl": "https://picsum.photos/200/200?random=12",
+      "followersCount": 1300,
+      "followingCount": 450,
+      "postsCount": 50
     },
     {
-      "id": "u4",
-      "username": "pedro87",
-      "email": "pedro@example.com",
-      "displayName": "Pedro Ruiz",
-      "bio": "Viajero",
-      "profileImageUrl": "https://images.unsplash.com/photo-1520813792240-56fc4a3765a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
-      "followersCount": 3,
-      "followingCount": 6,
-      "postsCount": 1,
-      "isVerified": false,
-      "isPrivate": false,
-      "website": "",
-      "createdAt": 1700003000000,
-      "updatedAt": 1700003000000
+      "id": "user_104",
+      "username": "maria_vega",
+      "email": "maria@fashionista.com",
+      "displayName": "María Vega",
+      "bio": "Fashionista 👗 | Estilista | Creativa digital ✨",
+      "profileImageUrl": "https://picsum.photos/200/200?random=13",
+      "followersCount": 2450,
+      "followingCount": 120,
+      "postsCount": 78,
+      "isVerified": true
     },
     {
-      "id": "u5",
-      "username": "luisa22",
-      "email": "luisa@example.com",
-      "displayName": "Luisa F.",
-      "bio": "Artista digital",
-      "profileImageUrl": "https://images.unsplash.com/photo-1502767089025-6572583495b9?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
-      "followersCount": 12,
-      "followingCount": 8,
-      "postsCount": 5,
-      "isVerified": true,
-      "isPrivate": false,
-      "website": "",
-      "createdAt": 1700004000000,
-      "updatedAt": 1700004000000
+      "id": "user_105",
+      "username": "juan_perez",
+      "email": "juan@wanderer.com",
+      "displayName": "Juan Pérez",
+      "bio": "Viajero y fotógrafo 📷 | Explorando el mundo, un paso a la vez 🌎",
+      "profileImageUrl": "https://picsum.photos/200/200?random=14",
+      "followersCount": 852,
+      "followingCount": 320,
+      "postsCount": 33
     }
   ],
   "posts": [
     {
-      "id": "p1",
-      "userId": "u1",
-      "caption": "Mi primer post",
-      "imageUrl": "https://images.unsplash.com/photo-1601758123927-7aaae5ef1c2b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-      "likesCount": 5,
-      "commentsCount": 2,
-      "location": "Lima",
-      "createdAt": 1700010000000,
-      "updatedAt": 1700010000000
+      "id": "post_101",
+      "userId": "user_102",
+      "caption": "Diseño minimalista para el logo de un cliente 🌟 #branding #design #minimalism",
+      "imageUrl": "https://picsum.photos/800/800?random=201",
+      "likesCount": 340,
+      "commentsCount": 45,
+      "location": "Estudio de diseño"
     },
     {
-      "id": "p2",
-      "userId": "u2",
-      "caption": "Hola mundo!",
-      "imageUrl": "https://images.unsplash.com/photo-1602524813943-b49de6db621b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-      "likesCount": 3,
-      "commentsCount": 1,
-      "location": "Madrid",
-      "createdAt": 1700011000000,
-      "updatedAt": 1700011000000
+      "id": "post_102",
+      "userId": "user_103",
+      "caption": "El futuro de la tecnología está aquí: ¡Explorando nuevas herramientas de IA! 🤖 #AI #MachineLearning",
+      "imageUrl": "https://picsum.photos/800/800?random=202",
+      "likesCount": 120,
+      "commentsCount": 20,
+      "location": "Oficina de desarrollo"
     },
     {
-      "id": "p3",
-      "userId": "u3",
-      "caption": "Trabajo terminado",
-      "imageUrl": "https://images.unsplash.com/photo-1612832021502-8f88f1ff8f1a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-      "likesCount": 7,
-      "commentsCount": 3,
-      "location": "Barcelona",
-      "createdAt": 1700012000000,
-      "updatedAt": 1700012000000
+      "id": "post_103",
+      "userId": "user_104",
+      "caption": "Combina estilo y confort con estos outfits perfectos para la temporada 👗✨ #fashion #outfits",
+      "imageUrl": "https://picsum.photos/800/800?random=203",
+      "likesCount": 550,
+      "commentsCount": 74,
+      "location": "Fashion Show"
     },
     {
-      "id": "p4",
-      "userId": "u4",
-      "caption": "Vacaciones!",
-      "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-      "likesCount": 2,
-      "commentsCount": 0,
-      "location": "Cusco",
-      "createdAt": 1700013000000,
-      "updatedAt": 1700013000000
+      "id": "post_104",
+      "userId": "user_105",
+      "caption": "Amanecer en la cima de los Andes 🌄 La vida nunca deja de sorprenderme 🏞️ #adventure #mountains",
+      "imageUrl": "https://picsum.photos/800/800?random=204",
+      "likesCount": 640,
+      "commentsCount": 30,
+      "location": "Cuzco, Perú"
     },
     {
-      "id": "p5",
-      "userId": "u5",
-      "caption": "Atardecer",
-      "imageUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-      "likesCount": 10,
-      "commentsCount": 4,
-      "location": "Lima",
-      "createdAt": 1700014000000,
-      "updatedAt": 1700014000000
+      "id": "post_105",
+      "userId": "user_102",
+      "caption": "Creando nuevas paletas de colores para mis próximos proyectos 🎨 #art #color #creativity",
+      "imageUrl": "https://picsum.photos/800/800?random=205",
+      "likesCount": 212,
+      "commentsCount": 15,
+      "location": "Estudio de arte"
+    },
+    {
+      "id": "post_106",
+      "userId": "user_103",
+      "caption": "Desarrollando la app del futuro, con nuevas funcionalidades de IA 🤖 #appdevelopment #tech",
+      "imageUrl": "https://picsum.photos/800/800?random=206",
+      "likesCount": 400,
+      "commentsCount": 36,
+      "location": "Tech Hub"
     }
   ],
-  "comments": [
+  "userFollows": [
     {
-      "id": "c1",
-      "postId": "p1",
-      "userId": "u2",
-      "text": "Buen post!",
-      "likesCount": 1,
-      "repliesCount": 0,
-      "parentCommentId": null,
-      "createdAt": 1700020000000,
-      "updatedAt": 1700020000000
+      "followerId": "user_101",
+      "followedId": "user_102"
     },
     {
-      "id": "c2",
-      "postId": "p1",
-      "userId": "u3",
-      "text": "Me gusta!",
-      "likesCount": 2,
-      "repliesCount": 1,
-      "parentCommentId": null,
-      "createdAt": 1700021000000,
-      "updatedAt": 1700021000000
+      "followerId": "user_101",
+      "followedId": "user_103"
     },
     {
-      "id": "c3",
-      "postId": "p2",
-      "userId": "u1",
-      "text": "Gracias por compartir",
-      "likesCount": 0,
-      "repliesCount": 0,
-      "parentCommentId": null,
-      "createdAt": 1700022000000,
-      "updatedAt": 1700022000000
+      "followerId": "user_101",
+      "followedId": "user_104"
     },
     {
-      "id": "c4",
-      "postId": "p3",
-      "userId": "u4",
-      "text": "Excelente!",
-      "likesCount": 3,
-      "repliesCount": 0,
-      "parentCommentId": null,
-      "createdAt": 1700023000000,
-      "updatedAt": 1700023000000
+      "followerId": "user_102",
+      "followedId": "user_101"
     },
     {
-      "id": "c5",
-      "postId": "p5",
-      "userId": "u5",
-      "text": "Hermoso!",
-      "likesCount": 5,
-      "repliesCount": 2,
-      "parentCommentId": null,
-      "createdAt": 1700024000000,
-      "updatedAt": 1700024000000
-    }
-  ],
-  "stories": [
-    {
-      "id": "s1",
-      "userId": "u1",
-      "imageUrl": "https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-      "text": "Story de prueba",
-      "backgroundColor": "#FF0000",
-      "textColor": "#FFFFFF",
-      "viewsCount": 5,
-      "expiresAt": 1700096400000,
-      "createdAt": 1700015000000
+      "followerId": "user_103",
+      "followedId": "user_101"
     },
     {
-      "id": "s2",
-      "userId": "u2",
-      "imageUrl": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-      "text": "Vacaciones!",
-      "backgroundColor": "#00FF00",
-      "textColor": "#000000",
-      "viewsCount": 2,
-      "expiresAt": 1700097400000,
-      "createdAt": 1700016000000
+      "followerId": "user_102",
+      "followedId": "user_104"
     },
     {
-      "id": "s3",
-      "userId": "u3",
-      "imageUrl": "https://images.unsplash.com/photo-1502767089025-6572583495b9?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-      "text": "Diseño UX",
-      "backgroundColor": "#0000FF",
-      "textColor": "#FFFFFF",
-      "viewsCount": 3,
-      "expiresAt": 1700098400000,
-      "createdAt": 1700017000000
+      "followerId": "user_104",
+      "followedId": "user_102"
     },
     {
-      "id": "s4",
-      "userId": "u4",
-      "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-      "text": "Viaje",
-      "backgroundColor": "#FFFF00",
-      "textColor": "#000000",
-      "viewsCount": 1,
-      "expiresAt": 1700099400000,
-      "createdAt": 1700018000000
+      "followerId": "user_103",
+      "followedId": "user_105"
     },
     {
-      "id": "s5",
-      "userId": "u5",
-      "imageUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-      "text": "Atardecer",
-      "backgroundColor": "#FF00FF",
-      "textColor": "#FFFFFF",
-      "viewsCount": 4,
-      "expiresAt": 1700100400000,
-      "createdAt": 1700019000000
+      "followerId": "user_105",
+      "followedId": "user_103"
     }
   ]
 }
