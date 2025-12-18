@@ -7,9 +7,10 @@
       "displayName": "Alex Valdez",
       "bio": "Amante del cine 🎬, la música 🎶 y los viajes 🌍",
       "profileImageUrl": "https://picsum.photos/200/200?random=10",
-      "followersCount": 512,
-      "followingCount": 180,
-      "postsCount": 4
+      "followersCount": 2,
+      "followingCount": 3,
+      "postsCount": 0,
+      "isVerified": false
     },
     {
       "id": "user_102",
@@ -18,9 +19,9 @@
       "displayName": "Paula Gómez",
       "bio": "Diseñadora gráfica 👩‍🎨 | Creativa | Coffee lover ☕️",
       "profileImageUrl": "https://picsum.photos/200/200?random=11",
-      "followersCount": 980,
-      "followingCount": 300,
-      "postsCount": 26,
+      "followersCount": 2,
+      "followingCount": 2,
+      "postsCount": 2,
       "isVerified": true
     },
     {
@@ -30,9 +31,10 @@
       "displayName": "Luis Fernández",
       "bio": "Desarrollador de software 💻 | Entusiasta de la IA 🤖 | Futuro CTO",
       "profileImageUrl": "https://picsum.photos/200/200?random=12",
-      "followersCount": 1300,
-      "followingCount": 450,
-      "postsCount": 50
+      "followersCount": 1,
+      "followingCount": 2,
+      "postsCount": 2,
+      "isVerified": false
     },
     {
       "id": "user_104",
@@ -41,9 +43,9 @@
       "displayName": "María Vega",
       "bio": "Fashionista 👗 | Estilista | Creativa digital ✨",
       "profileImageUrl": "https://picsum.photos/200/200?random=13",
-      "followersCount": 2450,
-      "followingCount": 120,
-      "postsCount": 78,
+      "followersCount": 2,
+      "followingCount": 1,
+      "postsCount": 1,
       "isVerified": true
     },
     {
@@ -53,11 +55,13 @@
       "displayName": "Juan Pérez",
       "bio": "Viajero y fotógrafo 📷 | Explorando el mundo, un paso a la vez 🌎",
       "profileImageUrl": "https://picsum.photos/200/200?random=14",
-      "followersCount": 852,
-      "followingCount": 320,
-      "postsCount": 33
+      "followersCount": 1,
+      "followingCount": 1,
+      "postsCount": 1,
+      "isVerified": false
     }
   ],
+
   "posts": [
     {
       "id": "post_101",
@@ -114,73 +118,49 @@
       "location": "Tech Hub"
     }
   ],
+
   "userFollows": [
-    {
-      "followerId": "user_101",
-      "followedId": "user_102"
-    },
-    {
-      "followerId": "user_101",
-      "followedId": "user_103"
-    },
-    {
-      "followerId": "user_101",
-      "followedId": "user_104"
-    },
-    {
-      "followerId": "user_102",
-      "followedId": "user_101"
-    },
-    {
-      "followerId": "user_103",
-      "followedId": "user_101"
-    },
-    {
-      "followerId": "user_102",
-      "followedId": "user_104"
-    },
-    {
-      "followerId": "user_104",
-      "followedId": "user_102"
-    },
-    {
-      "followerId": "user_103",
-      "followedId": "user_105"
-    },
-    {
-      "followerId": "user_105",
-      "followedId": "user_103"
-    }
+    { "followerId": "user_101", "followedId": "user_102" },
+    { "followerId": "user_101", "followedId": "user_103" },
+    { "followerId": "user_101", "followedId": "user_104" },
+    { "followerId": "user_102", "followedId": "user_101" },
+    { "followerId": "user_103", "followedId": "user_101" },
+    { "followerId": "user_102", "followedId": "user_104" },
+    { "followerId": "user_104", "followedId": "user_102" },
+    { "followerId": "user_103", "followedId": "user_105" },
+    { "followerId": "user_105", "followedId": "user_103" }
   ],
-"stories": [
-  {
-    "id": "story_101",
-    "userId": "user_101",
-    "imageUrl": "https://picsum.photos/600/900?random=301",
-    "createdAt": 1734000000000
-  },
-  {
-    "id": "story_102",
-    "userId": "user_102",
-    "imageUrl": "https://picsum.photos/600/900?random=302",
-    "createdAt": 1734000500000
-  },
-  {
-    "id": "story_103",
-    "userId": "user_103",
-    "imageUrl": "https://picsum.photos/600/900?random=303",
-    "createdAt": 1734001000000
-  },
-  {
-    "id": "story_104",
-    "userId": "user_104",
-    "imageUrl": "https://picsum.photos/600/900?random=304",
-    "createdAt": 1734001500000
-  },
-  {
-    "id": "story_105",
-    "userId": "user_105",
-    "imageUrl": "https://picsum.photos/600/900?random=305",
-    "createdAt": 1734002000000
-  }
+
+  "stories": [
+    {
+      "id": "story_101",
+      "userId": "user_101",
+      "imageUrl": "https://picsum.photos/600/900?random=301",
+      "createdAt": 1734000000000
+    },
+    {
+      "id": "story_102",
+      "userId": "user_102",
+      "imageUrl": "https://picsum.photos/600/900?random=302",
+      "createdAt": 1734000500000
+    },
+    {
+      "id": "story_103",
+      "userId": "user_103",
+      "imageUrl": "https://picsum.photos/600/900?random=303",
+      "createdAt": 1734001000000
+    },
+    {
+      "id": "story_104",
+      "userId": "user_104",
+      "imageUrl": "https://picsum.photos/600/900?random=304",
+      "createdAt": 1734001500000
+    },
+    {
+      "id": "story_105",
+      "userId": "user_105",
+      "imageUrl": "https://picsum.photos/600/900?random=305",
+      "createdAt": 1734002000000
+    }
+  ]
 }
