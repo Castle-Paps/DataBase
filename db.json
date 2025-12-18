@@ -151,5 +151,36 @@
       "followerId": "user_105",
       "followedId": "user_103"
     }
-  ]
+  ],
+"stories": [
+  {
+    "id": "story_101",
+    "userId": "user_101",
+    "imageUrl": "https://picsum.photos/600/900?random=301",
+    "createdAt": 1734000000000
+  },
+  {
+    "id": "story_102",
+    "userId": "user_102",
+    "imageUrl": "https://picsum.photos/600/900?random=302",
+    "createdAt": 1734000500000
+  },
+  {
+    "id": "story_103",
+    "userId": "user_103",
+    "imageUrl": "https://picsum.photos/600/900?random=303",
+    "createdAt": 1734001000000
+  },
+  {
+    "id": "story_104",
+    "userId": "user_104",
+    "imageUrl": "https://picsum.photos/600/900?random=304",
+    "createdAt": 1734001500000
+  },
+  {
+    "id": "story_105",
+    "userId": "user_105",
+    "imageUrl": "https://picsum.photos/600/900?random=305",
+    "createdAt": 1734002000000
+  }
 }
